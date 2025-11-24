@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouton Fuyant - Jeu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Écran de démarrage -->
+    <div id="menu">
+    <h1>Bouton Fuyant</h1>
+    <button id="start-btn">Jouer</button>
+    <button id="reset-btn">Reset High Score</button>
+    <p>Attrape le bouton... si tu peux 😈</p>
+</div>
+
+
+    <!-- HUD du jeu -->
+    <div id="hud">
+        <span id="chrono">Temps : 10</span>
+        <span id="score">Score : 0</span>
+        <span id="best">Meilleur : 0</span>
+    </div>
+
+    <!-- Le bouton impossible -->
+    <button id="bouton-fuyant">Clique-moi</button>
+
+    <!-- Écran de fin -->
+    <div id="fin">
+        <h2>Fin du jeu</h2>
+        <p id="final-score">Score :</p>
+        <p id="final-best">Meilleur :</p>
+        <button id="restart-btn">Rejouer</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
